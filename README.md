@@ -1,1 +1,3 @@
-# PeerTube theme Quickstart
+# PeerTube theme m2nz
+
+

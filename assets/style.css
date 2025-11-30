@@ -1,0 +1,688 @@
+/* Dark Theme for PeerTube - peertube.m2.nz */
+
+/* Base colors and body */
+#custom-css body {
+  background-color: #1a1a1a !important;
+  color: #e0e0e0 !important;
+}
+
+/* Main background */
+#custom-css .root {
+  background-color: #1a1a1a !important;
+}
+
+#custom-css .main-col {
+  background-color: #1a1a1a !important;
+}
+
+/* Header and navigation */
+#custom-css .navbar {
+  background-color: #2d2d2d !important;
+  border-bottom: 1px solid #404040 !important;
+}
+
+#custom-css .navbar-brand,
+#custom-css .navbar-nav .nav-link {
+  color: #e0e0e0 !important;
+}
+
+#custom-css .navbar-nav .nav-link:hover {
+  color: #ffffff !important;
+}
+
+#custom-css .navbar .form-control {
+  background-color: #3a3a3a !important;
+  border-color: #505050 !important;
+  color: #e0e0e0 !important;
+}
+
+#custom-css .navbar .form-control:focus {
+  background-color: #3a3a3a !important;
+  border-color: #6a6a6a !important;
+  color: #ffffff !important;
+}
+
+#custom-css .navbar .form-control::placeholder {
+  color: #a0a0a0 !important;
+}
+
+/* Cards and containers */
+#custom-css .card {
+  background-color: #2d2d2d !important;
+  border-color: #404040 !important;
+  color: #e0e0e0 !important;
+}
+
+#custom-css .card-header {
+  background-color: #252525 !important;
+  border-bottom-color: #404040 !important;
+  color: #e0e0e0 !important;
+}
+
+#custom-css .card-body {
+  background-color: #2d2d2d !important;
+  color: #e0e0e0 !important;
+}
+
+/* Video cards */
+#custom-css .video-card,
+#custom-css .video-miniature {
+  background-color: #2d2d2d !important;
+  border-color: #404040 !important;
+  margin-bottom: 1.5rem !important;
+}
+
+/* Video grid spacing */
+#custom-css .videos-grid .video-miniature,
+#custom-css .videos-list .video-miniature {
+  margin-bottom: 1.5rem !important;
+}
+
+#custom-css .video-miniature-name {
+  color: #e0e0e0 !important;
+}
+
+#custom-css .video-miniature-name:hover {
+  color: #ffffff !important;
+}
+
+#custom-css .video-miniature-account,
+#custom-css .video-miniature-channel {
+  color: #b0b0b0 !important;
+}
+
+#custom-css .video-miniature-account:hover,
+#custom-css .video-miniature-channel:hover {
+  color: #e0e0e0 !important;
+}
+
+/* Video player */
+#custom-css .video-js {
+  background-color: #000000 !important;
+}
+
+#custom-css .vjs-poster {
+  background-color: #000000 !important;
+}
+
+#custom-css .vjs-control-bar {
+  background-color: rgba(0, 0, 0, 0.7) !important;
+}
+
+#custom-css .vjs-big-play-button {
+  background-color: rgba(0, 0, 0, 0.6) !important;
+  border-color: #ffffff !important;
+}
+
+#custom-css .vjs-big-play-button:hover {
+  background-color: rgba(0, 0, 0, 0.8) !important;
+}
+
+/* Buttons */
+#custom-css .btn-primary {
+  background-color: #4a90e2 !important;
+  border-color: #4a90e2 !important;
+  color: #ffffff !important;
+}
+
+#custom-css .btn-primary:hover {
+  background-color: #5ba0f2 !important;
+  border-color: #5ba0f2 !important;
+}
+
+#custom-css .btn-secondary {
+  background-color: #505050 !important;
+  border-color: #505050 !important;
+  color: #e0e0e0 !important;
+}
+
+#custom-css .btn-secondary:hover {
+  background-color: #606060 !important;
+  border-color: #606060 !important;
+}
+
+#custom-css .btn-outline-primary {
+  border-color: #4a90e2 !important;
+  color: #4a90e2 !important;
+}
+
+#custom-css .btn-outline-primary:hover {
+  background-color: #4a90e2 !important;
+  border-color: #4a90e2 !important;
+  color: #ffffff !important;
+}
+
+#custom-css .btn-outline-secondary {
+  border-color: #606060 !important;
+  color: #e0e0e0 !important;
+}
+
+#custom-css .btn-outline-secondary:hover {
+  background-color: #606060 !important;
+  border-color: #606060 !important;
+  color: #ffffff !important;
+}
+
+/* Input fields */
+#custom-css .form-control {
+  background-color: #3a3a3a !important;
+  border-color: #505050 !important;
+  color: #e0e0e0 !important;
+}
+
+#custom-css .form-control:focus {
+  background-color: #3a3a3a !important;
+  border-color: #6a6a6a !important;
+  color: #ffffff !important;
+  box-shadow: 0 0 0 0.2rem rgba(74, 144, 226, 0.25) !important;
+}
+
+#custom-css .form-control::placeholder {
+  color: #a0a0a0 !important;
+}
+
+#custom-css .form-control:disabled {
+  background-color: #2d2d2d !important;
+  color: #808080 !important;
+}
+
+/* Select dropdowns */
+#custom-css .form-select {
+  background-color: #3a3a3a !important;
+  border-color: #505050 !important;
+  color: #e0e0e0 !important;
+}
+
+#custom-css .form-select:focus {
+  background-color: #3a3a3a !important;
+  border-color: #6a6a6a !important;
+  color: #ffffff !important;
+}
+
+/* Textarea */
+#custom-css textarea.form-control {
+  background-color: #3a3a3a !important;
+  border-color: #505050 !important;
+  color: #e0e0e0 !important;
+}
+
+/* Links */
+#custom-css a {
+  color: #7db3e8 !important;
+}
+
+#custom-css a:hover {
+  color: #9bc5f0 !important;
+}
+
+#custom-css a:visited {
+  color: #9db3d0 !important;
+}
+
+/* Sidebar */
+#custom-css .sidebar {
+  background-color: #252525 !important;
+  border-right-color: #404040 !important;
+}
+
+#custom-css .sidebar .nav-link {
+  color: #e0e0e0 !important;
+}
+
+#custom-css .sidebar .nav-link:hover {
+  background-color: #2d2d2d !important;
+  color: #ffffff !important;
+}
+
+#custom-css .sidebar .nav-link.active {
+  background-color: #3a3a3a !important;
+  color: #ffffff !important;
+}
+
+/* Dropdown menus */
+#custom-css .dropdown-menu {
+  background-color: #2d2d2d !important;
+  border-color: #404040 !important;
+}
+
+#custom-css .dropdown-item {
+  color: #e0e0e0 !important;
+}
+
+#custom-css .dropdown-item:hover {
+  background-color: #3a3a3a !important;
+  color: #ffffff !important;
+}
+
+#custom-css .dropdown-item.active {
+  background-color: #4a90e2 !important;
+  color: #ffffff !important;
+}
+
+/* Modals */
+#custom-css .modal-content {
+  background-color: #2d2d2d !important;
+  border-color: #404040 !important;
+  color: #e0e0e0 !important;
+}
+
+#custom-css .modal-header {
+  background-color: #252525 !important;
+  border-bottom-color: #404040 !important;
+  color: #e0e0e0 !important;
+}
+
+#custom-css .modal-footer {
+  background-color: #252525 !important;
+  border-top-color: #404040 !important;
+}
+
+#custom-css .modal-body {
+  background-color: #2d2d2d !important;
+  color: #e0e0e0 !important;
+}
+
+#custom-css .close,
+#custom-css .btn-close {
+  color: #e0e0e0 !important;
+  opacity: 0.8 !important;
+}
+
+#custom-css .close:hover,
+#custom-css .btn-close:hover {
+  color: #ffffff !important;
+  opacity: 1 !important;
+}
+
+/* Tables */
+#custom-css table {
+  color: #e0e0e0 !important;
+}
+
+#custom-css .table {
+  color: #e0e0e0 !important;
+}
+
+#custom-css .table thead th {
+  background-color: #252525 !important;
+  border-bottom-color: #404040 !important;
+  color: #e0e0e0 !important;
+}
+
+#custom-css .table tbody tr {
+  border-color: #404040 !important;
+}
+
+#custom-css .table tbody tr:hover {
+  background-color: #3a3a3a !important;
+}
+
+#custom-css .table td,
+#custom-css .table th {
+  border-color: #404040 !important;
+}
+
+/* Badges */
+#custom-css .badge {
+  color: #ffffff !important;
+}
+
+#custom-css .badge-primary {
+  background-color: #4a90e2 !important;
+}
+
+#custom-css .badge-secondary {
+  background-color: #606060 !important;
+}
+
+/* Alerts */
+#custom-css .alert {
+  background-color: #2d2d2d !important;
+  border-color: #404040 !important;
+  color: #e0e0e0 !important;
+}
+
+#custom-css .alert-info {
+  background-color: #2d3a4d !important;
+  border-color: #4a90e2 !important;
+  color: #b0d0ff !important;
+}
+
+#custom-css .alert-success {
+  background-color: #2d4d3a !important;
+  border-color: #4ae290 !important;
+  color: #b0ffd0 !important;
+}
+
+#custom-css .alert-warning {
+  background-color: #4d3d2d !important;
+  border-color: #e2a04a !important;
+  color: #ffd0b0 !important;
+}
+
+#custom-css .alert-danger {
+  background-color: #4d2d2d !important;
+  border-color: #e24a4a !important;
+  color: #ffb0b0 !important;
+}
+
+/* Pagination */
+#custom-css .pagination .page-link {
+  background-color: #3a3a3a !important;
+  border-color: #505050 !important;
+  color: #e0e0e0 !important;
+}
+
+#custom-css .pagination .page-link:hover {
+  background-color: #4a4a4a !important;
+  border-color: #606060 !important;
+  color: #ffffff !important;
+}
+
+#custom-css .pagination .page-item.active .page-link {
+  background-color: #4a90e2 !important;
+  border-color: #4a90e2 !important;
+  color: #ffffff !important;
+}
+
+#custom-css .pagination .page-item.disabled .page-link {
+  background-color: #2d2d2d !important;
+  border-color: #404040 !important;
+  color: #808080 !important;
+}
+
+/* Breadcrumbs */
+#custom-css .breadcrumb {
+  background-color: #252525 !important;
+}
+
+#custom-css .breadcrumb-item a {
+  color: #7db3e8 !important;
+}
+
+#custom-css .breadcrumb-item.active {
+  color: #e0e0e0 !important;
+}
+
+/* Tabs */
+#custom-css .nav-tabs {
+  border-bottom-color: #404040 !important;
+}
+
+#custom-css .nav-tabs .nav-link {
+  color: #e0e0e0 !important;
+  border-color: transparent !important;
+}
+
+#custom-css .nav-tabs .nav-link:hover {
+  background-color: #2d2d2d !important;
+  border-color: #404040 #404040 transparent !important;
+  color: #ffffff !important;
+}
+
+#custom-css .nav-tabs .nav-link.active {
+  background-color: #2d2d2d !important;
+  border-color: #404040 #404040 transparent !important;
+  color: #ffffff !important;
+}
+
+#custom-css .tab-content {
+  background-color: #2d2d2d !important;
+  color: #e0e0e0 !important;
+}
+
+/* Video info and metadata */
+#custom-css .video-info {
+  background-color: #2d2d2d !important;
+  color: #e0e0e0 !important;
+}
+
+#custom-css .video-info-name {
+  color: #ffffff !important;
+}
+
+#custom-css .video-info-channel {
+  color: #b0b0b0 !important;
+}
+
+#custom-css .video-info-channel:hover {
+  color: #e0e0e0 !important;
+}
+
+#custom-css .video-info-date {
+  color: #a0a0a0 !important;
+}
+
+#custom-css .video-info-description {
+  color: #e0e0e0 !important;
+}
+
+/* Comments section */
+#custom-css .comment {
+  background-color: #2d2d2d !important;
+  border-color: #404040 !important;
+  color: #e0e0e0 !important;
+}
+
+#custom-css .comment-author {
+  color: #e0e0e0 !important;
+}
+
+#custom-css .comment-date {
+  color: #a0a0a0 !important;
+}
+
+#custom-css .comment-text {
+  color: #e0e0e0 !important;
+}
+
+/* Footer */
+#custom-css footer {
+  background-color: #252525 !important;
+  border-top-color: #404040 !important;
+  color: #b0b0b0 !important;
+}
+
+#custom-css footer a {
+  color: #7db3e8 !important;
+}
+
+#custom-css footer a:hover {
+  color: #9bc5f0 !important;
+}
+
+/* Scrollbar styling (webkit browsers) */
+#custom-css ::-webkit-scrollbar {
+  width: 12px !important;
+  height: 12px !important;
+}
+
+#custom-css ::-webkit-scrollbar-track {
+  background: #252525 !important;
+}
+
+#custom-css ::-webkit-scrollbar-thumb {
+  background: #505050 !important;
+  border-radius: 6px !important;
+}
+
+#custom-css ::-webkit-scrollbar-thumb:hover {
+  background: #606060 !important;
+}
+
+/* Loading spinners */
+#custom-css .spinner-border {
+  border-color: #404040 !important;
+  border-right-color: #4a90e2 !important;
+}
+
+/* Tooltips */
+#custom-css .tooltip-inner {
+  background-color: #2d2d2d !important;
+  color: #e0e0e0 !important;
+  border: 1px solid #404040 !important;
+}
+
+#custom-css .tooltip.bs-tooltip-top .arrow::before {
+  border-top-color: #2d2d2d !important;
+}
+
+#custom-css .tooltip.bs-tooltip-bottom .arrow::before {
+  border-bottom-color: #2d2d2d !important;
+}
+
+#custom-css .tooltip.bs-tooltip-left .arrow::before {
+  border-left-color: #2d2d2d !important;
+}
+
+#custom-css .tooltip.bs-tooltip-right .arrow::before {
+  border-right-color: #2d2d2d !important;
+}
+
+/* Code blocks */
+#custom-css code {
+  background-color: #252525 !important;
+  color: #e0e0e0 !important;
+}
+
+#custom-css pre {
+  background-color: #252525 !important;
+  border-color: #404040 !important;
+  color: #e0e0e0 !important;
+}
+
+/* Blockquotes */
+#custom-css blockquote {
+  border-left-color: #4a90e2 !important;
+  color: #b0b0b0 !important;
+}
+
+/* Progress bars */
+#custom-css .progress {
+  background-color: #252525 !important;
+}
+
+#custom-css .progress-bar {
+  background-color: #4a90e2 !important;
+}
+
+/* List groups */
+#custom-css .list-group-item {
+  background-color: #2d2d2d !important;
+  border-color: #404040 !important;
+  color: #e0e0e0 !important;
+}
+
+#custom-css .list-group-item:hover {
+  background-color: #3a3a3a !important;
+}
+
+#custom-css .list-group-item.active {
+  background-color: #4a90e2 !important;
+  border-color: #4a90e2 !important;
+  color: #ffffff !important;
+}
+
+/* Input groups */
+#custom-css .input-group-text {
+  background-color: #3a3a3a !important;
+  border-color: #505050 !important;
+  color: #e0e0e0 !important;
+}
+
+/* Checkboxes and radio buttons */
+#custom-css .form-check-input {
+  background-color: #3a3a3a !important;
+  border-color: #505050 !important;
+}
+
+#custom-css .form-check-input:checked {
+  background-color: #4a90e2 !important;
+  border-color: #4a90e2 !important;
+}
+
+#custom-css .form-check-label {
+  color: #e0e0e0 !important;
+}
+
+/* Video recommendations and related videos */
+#custom-css .recommendations,
+#custom-css .related-videos {
+  background-color: #1a1a1a !important;
+}
+
+/* Channel page */
+#custom-css .channel-banner {
+  background-color: #2d2d2d !important;
+}
+
+#custom-css .channel-info {
+  background-color: #2d2d2d !important;
+  color: #e0e0e0 !important;
+}
+
+#custom-css .channel-name {
+  color: #ffffff !important;
+}
+
+#custom-css .channel-description {
+  color: #e0e0e0 !important;
+}
+
+/* Search results */
+#custom-css .search-results {
+  background-color: #1a1a1a !important;
+}
+
+#custom-css .search-result-item {
+  background-color: #2d2d2d !important;
+  border-color: #404040 !important;
+}
+
+/* Playlist */
+#custom-css .playlist {
+  background-color: #2d2d2d !important;
+  border-color: #404040 !important;
+}
+
+#custom-css .playlist-item {
+  background-color: #2d2d2d !important;
+  border-color: #404040 !important;
+}
+
+#custom-css .playlist-item:hover {
+  background-color: #3a3a3a !important;
+}
+
+/* Video watch page specific */
+#custom-css .video-watch-page {
+  background-color: #1a1a1a !important;
+}
+
+/* Account page */
+#custom-css .account-page {
+  background-color: #1a1a1a !important;
+}
+
+/* Settings page */
+#custom-css .settings-page {
+  background-color: #1a1a1a !important;
+}
+
+/* Admin panel */
+#custom-css .admin-page {
+  background-color: #1a1a1a !important;
+}
+
+/* Override any light backgrounds that might slip through */
+#custom-css [style*="background-color: white"],
+#custom-css [style*="background-color: #fff"],
+#custom-css [style*="background-color: #ffffff"] {
+  background-color: #2d2d2d !important;
+}
+
+#custom-css [style*="color: black"],
+#custom-css [style*="color: #000"],
+#custom-css [style*="color: #000000"] {
+  color: #e0e0e0 !important;
+}
