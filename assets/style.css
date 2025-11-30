@@ -245,6 +245,11 @@
   border-color: #404040 !important;
 }
 
+/* Menu container */
+#custom-css .menu-container {
+  background-color: #1a1a1a !important;
+}
+
 #custom-css .dropdown-item {
   color: #e0e0e0 !important;
 }
@@ -455,6 +460,11 @@
 
 #custom-css .video-info-description {
   color: #e0e0e0 !important;
+}
+
+/* Video bottom content area */
+#custom-css .video-info {
+  padding: 1.5rem !important;
 }
 
 /* Comments section */
